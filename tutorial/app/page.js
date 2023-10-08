@@ -2,18 +2,22 @@
 import React, { useState } from "react";
 //use state hook
 const page = () => {
-  let [marks, setmarks] = useState(42);
+  const [marks, setmarks] = useState(42);
+  const [toggle, settoggle] = useState(true);
   return (
-    <>
-      <h1>marks are {marks}</h1>
-      <button
-        onClick={() => {
-          setmarks(46);
-        }}
-      >
-        update
-      </button>
-    </>
+    <html lang="en">
+      <body>
+        <h1 className="text-4xl">marks are {marks}</h1>
+        <button
+          className="text-xl"
+          onClick={() => {
+            setmarks(48);
+          }}
+        >
+          update
+        </button>
+      </body>
+    </html>
   );
 };
 
