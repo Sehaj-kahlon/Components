@@ -6,7 +6,7 @@ export const Header = (props) => {
       <h2>{props.FirstName + " " + props.LastName}</h2>
       <div className="flex gap-8">
         <Link href="/About">About</Link>
-        <h4>Blog</h4>
+        <Link href="/Blog">Blog</Link>
         <h4>Career</h4>
         <h4>Account</h4>
       </div>
