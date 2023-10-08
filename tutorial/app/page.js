@@ -1,12 +1,8 @@
 "use client";
-"use client";
 import React, { useState } from "react";
-import { Header } from "@/Components/Header";
 //use state hook
 const page = () => {
   // const [marks, setmarks] = useState(42);
-  const [User, setUser] = useState("Sehaj");
-  const [Surname, setSurname] = useState("Kahlon");
   return (
     <html lang="en">
       <body>
@@ -19,7 +15,8 @@ const page = () => {
         >
           update
         </button> */}
-        <Header FirstName={User} LastName={Surname} />
+        {/* <Header FirstName={User} LastName={Surname} /> */}
+        
       </body>
     </html>
   );
