@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import axios from "axios";
 //use state hook
 const page = () => {
   // const [marks, setmarks] = useState(42);
@@ -16,10 +17,14 @@ const page = () => {
     //       update
     //     </button> */}
     //     {/* <Header FirstName={User} LastName={Surname} /> */}
-        
+
     //   </body>
     // </html>
-    <div>Home</div>
+    <>
+      {" "}
+      <div>Home</div>
+      <button> get Images </button>
+    </>
   );
 };
 
