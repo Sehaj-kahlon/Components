@@ -42,5 +42,6 @@ ans
 //nested promises, one promise called inside other
 
 var ans = new Promise((res, rej) => {
-    
+
 })
+//other prmise will be called in the then of the first promise
