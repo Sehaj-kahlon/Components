@@ -38,3 +38,9 @@ ans
   .catch(function () {
     console.log("number is greater than 5");
   });
+
+//nested promises, one promise called inside other
+
+var ans = new Promise((res, rej) => {
+    
+})
